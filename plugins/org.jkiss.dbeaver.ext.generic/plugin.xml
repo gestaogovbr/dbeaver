@@ -1369,7 +1369,7 @@
 
                     <file type="jar" path="maven:/org.teiid:teiid:jdbc:LATEST" bundle="!drivers.teiid" custom="true"/>
                     <file type="jar" path="drivers/teiid" bundle="drivers.teiid"/>
-                    <file type="license" path="drivers/teiid/LICENSE.txt" bundle="drivers.teiid"/>
+                    <file type="license" path="https://www.apache.org/licenses/LICENSE-2.0.txt" bundle="!drivers.teiid"/>
                     <property name="serverName" value="{host}"/>
                     <property name="portNumber" value="{port}"/>
                     <property name="databaseName" value="{database}"/>
